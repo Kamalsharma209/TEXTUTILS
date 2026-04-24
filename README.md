@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# 📝 TEXTUTILS – Text Utility Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
 
-## Available Scripts
+TEXTUTILS is a React-based web application that provides multiple text manipulation and analysis features.
+It allows users to perform operations like converting text case, removing extra spaces, analyzing word count, and more.
 
-In the project directory, you can run:
+This project demonstrates frontend development skills using React and showcases how to build interactive UI applications.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Frontend:** React.js
+* **Languages:** JavaScript, HTML, CSS
+* **Styling:** CSS / Bootstrap (if used)
+* **Build Tool:** npm
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 How It Works
 
-### `npm run build`
+The application takes user input text and performs real-time transformations using JavaScript functions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+User Input
+↓
+React State Management
+↓
+Text Processing Functions
+↓
+Updated Output Display
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features
 
-### `npm run eject`
+* 🔠 Convert text to Uppercase & Lowercase
+* 🔄 Remove extra spaces
+* 🔢 Word and character count
+* ⏱️ Reading time estimation
+* 📋 Copy text to clipboard
+* 🧹 Clear text
+* 🔍 Preview text in real-time
+* 🌙 Dark mode (if implemented)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👉 Similar apps provide multiple text utilities like formatting, cleaning, and preview features. ([GitHub][1])
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+src/
+├── components/     # React components
+├── App.js          # Main app logic
+├── index.js        # Entry point
 
-## Learn More
+public/
+├── index.html
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Installation & Setup
 
-### Code Splitting
+### ✅ Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Node.js (v14+)
+* npm
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🔽 1. Clone Repository
 
-### Making a Progressive Web App
+git clone https://github.com/Kamalsharma209/TEXTUTILS.git
+cd TEXTUTILS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### 📦 2. Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### ▶️ 3. Run the Application
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### 🌐 4. Open in Browser
+
+http://localhost:3000
+
+👉 React apps typically run on port 3000 in development mode. ([GitHub][2])
+
+---
+
+## 🧪 Testing
+
+* Open the app in browser
+* Enter text and try different operations
+* Verify output updates in real-time
+
+---
+
+## 🚀 Future Improvements
+
+* Add text formatting (bold, italic, etc.)
+* Add file upload support (.txt, .doc)
+* Add multi-language support
+* Improve UI/UX design
+* Deploy on Netlify / Vercel
+
+---
+
+## ⚠️ Known Limitations
+
+* No backend integration
+* Limited advanced text processing
+* Basic UI
+
+---
+
+## 👨‍💻 Author
+
+Kamal Sharma
+GitHub: https://github.com/Kamalsharma209
+
+---
+
+## ⭐ Contributing
+
+Feel free to fork this repository and submit pull requests.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+[1]: https://github.com/Subham-Maity/textutils?utm_source=chatgpt.com "Try TextUtils - Just one click to make your document better!"
+[2]: https://github.com/CodeWithHarry/TextUtils-React?utm_source=chatgpt.com "CodeWithHarry/TextUtils-React: Source Code For ..."
